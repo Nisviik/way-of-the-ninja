@@ -1,0 +1,75 @@
+{
+  "id": "pf2e-way-of-the-ninja-by-nisviik",
+  "title": "PF2e - Way of the Ninja by Nisviik",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  
+  "description": "Includes the Shinobi Racket, the Ninja Class archetype, new qi spells and new feats from Way of the Ninja by Nisviik",
+  "authors": [
+    {
+      "name": "Nisviik",
+      "email": "nisviik.homebrew@gmail.com",
+      "url": "https://www.pathfinderinfinite.com/browse.php?author=nisviik",
+      "discord": "nisviik",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "way-of-the-ninja-journal",
+      "label": "Journal",
+      "path": "packs/way-of-the-ninja-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "way-of-the-ninja-items",
+      "label": "Feats, Items and Spells",
+      "path": "packs/way-of-the-ninja-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Nisviik Homebrew",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+          {
+              "name": "Way of the Ninja",
+              "sorting": "a",
+              "packs": [
+                  "way-of-the-ninja-items",
+                  "way-of-the-ninja-journal"
+              ]
+          }
+      ]
+    }
+  ],
+  "flags": {
+      "pf2e-way-of-the-ninja-by-nisviik": {
+          "pf2e-homebrew": {
+              
+              "baseWeapons": {
+                  "ninjato": "Ninjato",
+                  "nagamaki": "Nagamaki",
+                  "hidden-blade": "Hidden Blade"
+              }
+          }
+      }
+  }
+}
