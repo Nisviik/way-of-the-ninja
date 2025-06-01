@@ -1,7 +1,9 @@
 {
   "id": "pf2e-way-of-the-ninja-by-nisviik",
   "title": "PF2e - Way of the Ninja by Nisviik",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
