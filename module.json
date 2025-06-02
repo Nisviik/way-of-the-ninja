@@ -1,9 +1,9 @@
 {
   "id": "pf2e-way-of-the-ninja-by-nisviik",
   "title": "PF2e - Way of the Ninja by Nisviik",
-  "version": "0.9.1",
-  "manifest": "https://raw.githubusercontent.com/Nisviik/way-of-the-ninja/refs/heads/main/module.json",
-  "download": "https://github.com/Nisviik/way-of-the-ninja/archive/refs/tags/v0.9.zip",
+  "version": "1.0.0",
+  "manifest": "https://github.com/nisviik/way-of-the-ninja/releases/latest/download/module.json",
+  "download": "https://github.com/Nisviik/way-of-the-ninja/releases/download/tags/1.0.0/module.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
